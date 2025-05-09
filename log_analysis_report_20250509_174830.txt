@@ -1,0 +1,135 @@
+
+=========================================
+LOG FILE ANALYSIS REPORT
+=========================================
+Analyzed file: /home/marawan/Downloads/access.log
+Report generated: Fri May  9 17:48:30 EEST 2025
+
+=========================================
+1. REQUEST COUNTS
+=========================================
+Total requests: 10000
+GET requests: 9952
+POST requests: 5
+
+=========================================
+2. UNIQUE IP ADDRESSES
+=========================================
+Total unique IPs: 1753
+
+=========================================
+2.1 REQUESTS PER UNIQUE IP
+=========================================
+IP: 66.249.73.135, Total requests: 482
+IP: 46.105.14.53, Total requests: 364
+IP: 130.237.218.86, Total requests: 357
+IP: 75.97.9.59, Total requests: 273
+IP: 50.16.19.13, Total requests: 113
+IP: 209.85.238.199, Total requests: 102
+IP: 68.180.224.225, Total requests: 99
+IP: 100.43.83.137, Total requests: 84
+IP: 208.115.111.72, Total requests: 83
+IP: 198.46.149.143, Total requests: 82
+
+=========================================
+2.2 GET/POST REQUESTS PER IP (TOP 10)
+=========================================
+
+=========================================
+3. FAILURE REQUESTS
+=========================================
+Total failed requests (4xx/5xx): 220
+Percentage of failed requests: 2.00%
+
+=========================================
+4. MOST ACTIVE IP
+=========================================
+IP: 66.249.73.135, Requests: 482
+
+=========================================
+5. DAILY REQUEST AVERAGES
+=========================================
+Total days in log: 4
+Average requests per day: 2500.00
+
+=========================================
+6. FAILURE ANALYSIS BY DAY
+=========================================
+Date: 19/May/2015, Failures: 66
+Date: 18/May/2015, Failures: 66
+Date: 20/May/2015, Failures: 58
+Date: 17/May/2015, Failures: 30
+
+=========================================
+ADDITIONAL: REQUESTS BY HOUR
+=========================================
+Hour: 14:00, Requests: 498
+Hour: 15:00, Requests: 496
+Hour: 19:00, Requests: 493
+Hour: 20:00, Requests: 486
+Hour: 17:00, Requests: 484
+Hour: 18:00, Requests: 478
+Hour: 13:00, Requests: 475
+Hour: 16:00, Requests: 473
+Hour: 12:00, Requests: 462
+Hour: 11:00, Requests: 459
+Hour: 21:00, Requests: 453
+Hour: 10:00, Requests: 443
+Hour: 05:00, Requests: 371
+Hour: 06:00, Requests: 366
+Hour: 02:00, Requests: 365
+Hour: 09:00, Requests: 364
+Hour: 00:00, Requests: 361
+Hour: 01:00, Requests: 360
+Hour: 07:00, Requests: 357
+Hour: 23:00, Requests: 356
+Hour: 04:00, Requests: 355
+Hour: 03:00, Requests: 354
+Hour: 22:00, Requests: 346
+Hour: 08:00, Requests: 345
+
+=========================================
+ADDITIONAL: STATUS CODE BREAKDOWN
+=========================================
+Status: 200, Count: 9126
+Status: 304, Count: 445
+Status: 404, Count: 213
+Status: 301, Count: 164
+Status: 206, Count: 45
+Status: 500, Count: 3
+Status: 416, Count: 2
+Status: 403, Count: 2
+
+=========================================
+ADDITIONAL: MOST ACTIVE USER BY METHOD
+=========================================
+Most active GET user:
+Most active POST user:
+
+=========================================
+ADDITIONAL: FAILURE PATTERNS BY HOUR
+=========================================
+Hour: 09:00, Failures: 18
+Hour: 05:00, Failures: 15
+Hour: 06:00, Failures: 14
+Hour: 17:00, Failures: 12
+Hour: 13:00, Failures: 12
+
+=========================================
+ANALYSIS SUGGESTIONS
+=========================================
+1. Failure Reduction:
+   - Investigate the most common error codes and their causes
+   - Check server resources during peak failure times
+
+2. Peak Times:
+   - Consider scaling resources during high traffic hours
+
+3. Security:
+   - Monitor IPs with unusually high request rates
+   - Check for patterns in failed requests that might indicate attacks
+
+4. System Improvements:
+   - Optimize endpoints with most failures
+   - Consider caching for frequently accessed resources
+
