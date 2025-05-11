@@ -30,11 +30,6 @@ IP: 68.180.224.225, Total requests: 99
 IP: 100.43.83.137, Total requests: 84
 IP: 208.115.111.72, Total requests: 83
 IP: 198.46.149.143, Total requests: 82
-
-=========================================
-2.2 GET/POST REQUESTS PER IP (TOP 10)
-=========================================
-
 =========================================
 3. FAILURE REQUESTS
 =========================================
@@ -103,8 +98,8 @@ Status: 403, Count: 2
 =========================================
 ADDITIONAL: MOST ACTIVE USER BY METHOD
 =========================================
-Most active GET user:
-Most active POST user:
+Most active GET user: 66.249.73.135
+Most active POST user: 208.115.111.72
 
 =========================================
 ADDITIONAL: FAILURE PATTERNS BY HOUR
